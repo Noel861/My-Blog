@@ -294,11 +294,11 @@ width: 500px;}
     body{
         display: flex;
     }
+    }
     .switch{
         position: relative;
         top: -104px;
     }
-}
 @media all and (max-width: 430px) {
     body{
         display: flex;
@@ -357,6 +357,11 @@ width: 500px;}
     .moon{
         position: relative;
         top: -101px;
+    }
+    .nav_links{
+        position: relative;
+        right: -50px;
+        height: 150px;
     }
 }
 

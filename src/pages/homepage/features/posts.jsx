@@ -33,7 +33,7 @@ const posts = () => {
                 <h3>Latest Posts</h3>
             </div>
 
-            <div className='Post_Grid'>
+            <div className='Post_Grid1'>
                 <div className='Post1'>
                     <img src={Post1} alt=""></img>
                     <button><span>Technology</span></button>

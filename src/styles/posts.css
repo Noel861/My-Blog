@@ -24,6 +24,15 @@
     position: relative;
     right: -170px;
 }
+.Post_Grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 15px;
+    width: 500px;
+    position: relative;
+    right: -170px;
+}
 .Post1 img{
     width: 280px;
 }
@@ -37,6 +46,15 @@
     background: #4B6BFB0D;
 }
 .Post_Grid .Post1{
+    border: 1px solid #242535;
+    height: 360px;
+    width: 301px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.Post_Grid1 .Post1{
     border: 1px solid #242535;
     height: 360px;
     width: 301px;
