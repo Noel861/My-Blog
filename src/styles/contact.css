@@ -1,0 +1,55 @@
+#grid{
+    display: flex;
+    background-color: #FFF;
+    margin: 0px 100px;
+    padding:  50px 0px ;
+    padding-top: 50px;
+    border-radius: 30px;
+}
+#img img{
+    width: 50%;
+    position: relative;
+    right: -100px;
+}
+#search h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #181a2a;
+    position: relative;
+    left: -40px;
+}
+#search input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px black;
+    background-color: #FFF;
+    border-style: solid;
+    padding-top: 10px;
+    margin: 5px 0px;
+    margin-top: 20px;
+}
+#search ::placeholder {
+    bottom: 10px;
+    position: relative;
+}
+#search button{
+    padding: 10px 35px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #181a2a;
+    color: #FFF;
+    margin-top: 30px;
+}
+#search button:hover{
+    cursor: pointer;
+    background-color: #141414;
+}
+.contact{
+    color: #141414;
+    margin: 130px 0px;
+    font-size: 17px;
+}
+.contact1{
+    margin: 20px 0px;
+}

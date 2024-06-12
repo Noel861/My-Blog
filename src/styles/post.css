@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.post_button button{
+    background-color: #4B6BFB;
+    border-style: none;
+    padding: 2px 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.post_button button span{
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.single_post{
+    margin: 0px 380px;
+}
+.pfp2 p{
+    color: #97989F;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.pfp2 img{
+    display: flex;
+    position: relative;
+    float:left;
+    width: 25px;
+    margin-right: 10px;
+}
+.pfp2{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.pfp2 span{
+    margin-left: 10px;
+}
+.post1 img{
+    width:520px;
+    margin: 0px ;
+}
+.post1 p{
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #BABABF;
+}
+.Quote{
+    background-color: #242535;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Quote p{
+    color: #FFFFFF;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.post_ad4{
+    border: 1px none;
+    text-align: center;
+    justify-content: center;
+    background-color: #242535;
+    border-radius: 10px;
+    color: #696A75;
+    padding: 5px 0px;
+}
+.post_ad4 p{
+    text-align: center;
+}
+.Author h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.Author p span{
+    color: #BABABF;
+    font-size: 14px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+.Author p{
+    font-size: 12px;
+    color: #BABABF;
+    margin-bottom: 20px;    
+}
+.Author img{
+    float: left;
+    position: relative;
+    width: 40px;
+    margin-right: 10px;
+    align-content: center;  
+    position: relative;
+    right: -150px;
+    top: -2px;
+}
+.Author{
+    margin: 0px 230px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #242535;
+    width: 800px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.Author h5{
+    font-weight: 400;
+    color: #BABABF;
+}
+.author_padding{
+    padding: 170px;
+}
+.author_icons{
+    color: #FFFFFF;
+    background-color: #696A75;
+    padding: 7px;
+    width: 25px;
+    font-size: 25px;
+    margin: 0px 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+}

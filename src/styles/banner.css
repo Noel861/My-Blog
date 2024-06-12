@@ -1,0 +1,62 @@
+.banner1 img{
+    width: 930px;
+    margin-left: 170px;
+}
+.banner_card{
+    width: 420px;
+    background-color: #181A2A;
+    border: 1px solid #242535;
+    box-shadow: 0px 12px 24px -6px #181A2A1F;
+    margin-left: 200px;
+    height: 200px;
+    padding: 20px 30px 50px 30px;
+    border-radius: 10px;
+    position: relative;
+    top: -180px;
+}
+.banner_card button{
+    background-color: #4B6BFB;
+    border-style: none;
+    padding: 2px 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.banner_card button span{
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.pfp1 p{
+    color: #97989F;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.pfp1 img{
+    display: flex;
+    position: relative;
+    float:left;
+    width: 25px;
+    margin-right: 10px;
+}
+.pfp1{
+    margin-top: 10px;
+}
+.pfp1 span{
+    margin-left: 10px;
+}
+.banner{
+height: 550px;}
+.blog_title {
+    text-align: center;
+}
+.blog_title ul{
+    display: flex;
+    background-color: #181A2A;
+    margin-left: 578px;
+    margin-top: 10px;
+}
+.blog_title ul li{
+    margin: 0px 5px;
+    color: #696A75;
+    margin-bottom: 30px;
+}

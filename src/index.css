@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --background_color: #181a2a;
+    --forground_color: #003fcc;
+    --primary_text_color: #0a0a0a;
+    --secondary_text_color: hsl(0, 0%, 100%);
+    --toggle-bg: #f0eb9d;
+    --toggle-fg: #ffd000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto;
+}
+  body{
+    background: var(--background_color);
+    color: #fff;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0pc 150px;
+    margin-right: 430px;
+    background-color: #181A2A;
+
+  }
+  header .nav_links ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #181A2A;
+
+  }
+  
+  header .nav_links ul li a {
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+  }
+
+  header img{
+    position: relative;
+    top: -30px;
+    right: -20px;
+    display: flex;
+  }
+  header h2{
+    position: relative;
+    top: -63px;
+    right: -60px;
+  }
+  header h2 span{
+    font-weight: lighter;
+  }
+.container input{
+    position: relative;
+    top: -40px;
+    left: 500px;
+    border-style: none;
+    background-color: #242535;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.container img{
+    position: relative;
+    top: -48px;
+    right: -640px;
+    width: 20px;
+    color: aliceblue;
+}
+.inner_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    margin: 0px 170px;
+}
+.inner_footer p span{
+    color: #97989F;
+}
+ul{
+    list-style: none;
+    color: #97989F;
+    background: #141624;
+    margin: 0px 50px;
+}
+.lists p{
+    margin: 0px 50px;
+    margin-bottom: 10px;
+}
+.lists ul li{
+    color: #97989F;
+    padding: 3px 0px;
+}
+.lists ul li a{
+    color: #97989F;
+    padding: 3px 0px;
+}
+footer{
+    background: #141624;
+    padding: 40px 0px;
+}
+.searchbox h3{
+    background: #242535;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.searchbox p{
+    background: #242535;
+    font-size: 14px;
+    color: #97989F;
+    margin-bottom: 20px;
+}
+.searchbox{
+    background: #242535;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    height: 200px;
+}
+.searchbox input{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border-style: none;
+    background: #181A2A;
+    color: #FFF;
+}
+.searchbox .email{
+    position: relative;
+    top: -70px;
+    right: -60px;
+    font-size: 20px;
+    color: #696A75  
+}
+.searchbox button{
+    width: 192px;
+    height: 33px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #4B6BFB;
+    margin-top: 10px;
+    color: #FFF;
+}
+.footerhr hr{
+border: 1px dotted #242535;
+margin-right: -440px;
+margin-top: 50px;
+}
+.footerhr h2 span{
+    font-weight: lighter;
+}
+.footerhr p span{
+    color: #BABABF;
+    font-size: 14px;
+    margin-right: 2px;
+}
+.footerhr p{
+    font-size: 14px;
+}
+.footerhr img{
+    float: left;
+    position: relative;
+    width: 40px;
+    margin-right: 10px;
+}
+.footerhr{
+    margin: 0px 170px;
+    justify-content: space-between;
+    display: flex;
+}
+.footerhr ul{
+    margin-top: 100px;
+    display: flex;
+}
+.footerhr ul li{
+    margin-left: 10px;
+}
+.footerhr1{
+width: 500px;}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    top: -100px;
+    right: -720px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: black;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px black;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: white;
+
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    background-color: black;
+}   
+.sun{
+    position: relative;
+    top: -97px;
+    right: -676px;
+    font-size: 12px;
+}
+.moon{
+    position: relative;
+    top: -97px;
+    right: -690px;
+    font-size: 12px;
+    color: black;
+}
+#container_button{
+    padding: 11px 8px 5px 8px;
+    background-color: #242535;
+    border-style: none ;
+    cursor: pointer; 
+    position: relative;
+    top: -76px;
+    right: -669px;
+    border-radius: 5px;
+    color: #FFF;
+}
+.container input{
+    color: #FFF;
+}
+@media all and (max-width: 320px) {
+    body{
+        font-size: 12px;
+        display: flex;
+    }
+    header .nav_links ul li a{
+        font-size: 12px;
+    }
+    .switch{
+        position: relative;
+        top: -104px;
+    }
+}
+@media all and (max-width: 376px) {
+    body{
+        display: flex;
+    }
+    .switch{
+        position: relative;
+        top: -104px;
+    }
+}
+@media all and (max-width: 430px) {
+    body{
+        display: flex;
+    }
+    .switch{
+        position: relative;
+        top: -104px;
+    }
+}
+@media all and (max-width: 769px) {
+    body{
+        display: flex;
+    }
+    .switch{
+        position: relative;
+        top: -104px;
+    }
+    .sun{
+        position: relative;
+        top: -101px;
+    }
+    .moon{
+        position: relative;
+        top: -101px;
+    }
+}
+@media all and (max-width: 821px) {
+    body{
+        display: flex;
+    }
+    .switch{
+        position: relative;
+        top: -104px;
+    }
+    .sun{
+        position: relative;
+        top: -101px;
+    }
+    .moon{
+        position: relative;
+        top: -101px;
+    }
+}
+@media all and (max-width: 1025px) {
+    body{
+        display: flex;
+    }
+    .switch{
+        position: relative;
+        top: -104px;
+    }
+    .sun{
+        position: relative;
+        top: -101px;
+    }
+    .moon{
+        position: relative;
+        top: -101px;
+    }
+}
+
+

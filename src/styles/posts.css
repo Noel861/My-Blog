@@ -1,0 +1,98 @@
+.post_ad{
+    text-align: center;
+    border: 1px none;
+    background-color: #242535;
+    border-radius: 10px;
+    color: #696A75;
+    padding: 5px 0px;
+    margin-bottom: 50px;
+    width: 400px;
+    margin-left: 440px;
+}
+.post_ad p{
+    text-align: center;
+}
+.post_ad button{
+    color: #696A75;
+}
+.Post_Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 15px;
+    width: 500px;
+    position: relative;
+    right: -170px;
+}
+.Post1 img{
+    width: 280px;
+}
+.Post1 button{
+    color: #4B6BFB;
+    border-style: none;
+    padding: 2px 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background: #4B6BFB0D;
+}
+.Post_Grid .Post1{
+    border: 1px solid #242535;
+    height: 360px;
+    width: 301px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.pfp1 p{
+    color: #97989F;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.pfp1 img{
+    display: flex;
+    position: relative;
+    float:left;
+    width: 25px;
+    margin-right: 10px;
+}
+.pfp1{
+    margin-top: 10px;
+}
+.pfp1 span{
+    margin-left: 10px;
+}
+.post_title{
+    margin: 0px 170px;
+    margin-bottom: 30px;
+}
+.post_ad1{
+    text-align: center;
+    border: 1px none;
+    background-color: #242535;
+    border-radius: 10px;
+    color: #696A75;
+    padding: 5px 0px;
+    width: 400px;
+    margin: 50px 0px;
+    margin-left: 440px;
+}
+.post_ad2 button{
+    color: #696A75;
+    padding: 5px 10px;
+    border: 1px solid #696A754D;
+    background-color: #242535;
+    position: relative;
+    right: -587px;
+    top: 10px;
+}
+.post_ad3{
+    text-align: center;
+    border: 1px none;
+    background-color: #242535;
+    border-radius: 10px;
+    color: #696A75;
+    padding: 5px 0px;
+    margin: 60px 400px;
+}
