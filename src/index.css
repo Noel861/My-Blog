@@ -279,90 +279,190 @@ width: 500px;}
 }
 @media all and (max-width: 320px) {
     body{
-        font-size: 12px;
         display: flex;
     }
-    header .nav_links ul li a{
-        font-size: 12px;
+    header .nav_links ul{
+       width: 500px;
+       height: 0px;
+       margin-top: 10px;
+       position: relative;
+       right: -40px;
     }
-    .switch{
+        
+    }
+    .container{
         position: relative;
-        top: -104px;
+        bottom: -43px;
+        right: -50px;
     }
-}
+    header .Logo{
+        position: relative;
+        bottom: -25px;
+    }
+    .Post_Grid1{
+        position: relative;
+        left: 100px;
+        margin-left: 260px;
+    }
 @media all and (max-width: 376px) {
     body{
         display: flex;
     }
+    header .nav_links ul{
+       width: 500px;
+       height: 0px;
+       margin-top: 10px;
+       position: relative;
+       right: -40px;
     }
-    .switch{
+        
+    }
+    .container{
         position: relative;
-        top: -104px;
+        bottom: -43px;
+        right: -50px;
+    }
+    header .Logo{
+        position: relative;
+        bottom: -25px;
+    }
+    .Post_Grid1{
+        position: relative;
+        left: 100px;
+        margin-left: 260px;
     }
 @media all and (max-width: 430px) {
     body{
         display: flex;
     }
-    .switch{
-        position: relative;
-        top: -104px;
+    header .nav_links ul{
+       width: 500px;
+       height: 0px;
+       margin-top: 10px;
+       position: relative;
+       right: -40px;
     }
-}
+        
+    }
+    .container{
+        position: relative;
+        bottom: -43px;
+        right: -50px;
+    }
+    header .Logo{
+        position: relative;
+        bottom: -25px;
+    }
+    .Post_Grid1{
+        position: relative;
+        left: 100px;
+        margin-left: 260px;
+    }
 @media all and (max-width: 769px) {
     body{
         display: flex;
     }
-    .switch{
-        position: relative;
-        top: -104px;
+    header .nav_links ul{
+       width: 500px;
+       height: 0px;
+       margin-top: 10px;
+       position: relative;
+       right: -40px;
     }
-    .sun{
-        position: relative;
-        top: -101px;
+        
     }
-    .moon{
+    .container{
         position: relative;
-        top: -101px;
+        bottom: -43px;
+        right: -50px;
     }
-}
+    header .Logo{
+        position: relative;
+        bottom: -25px;
+    }
+    .Post_Grid1{
+        position: relative;
+        left: 100px;
+        margin-left: 260px;
+    }
 @media all and (max-width: 821px) {
     body{
         display: flex;
     }
-    .switch{
-        position: relative;
-        top: -104px;
+    header .nav_links ul{
+       width: 500px;
+       height: 0px;
+       margin-top: 10px;
+       position: relative;
+       right: -40px;
     }
-    .sun{
-        position: relative;
-        top: -101px;
+        
     }
-    .moon{
+    .container{
         position: relative;
-        top: -101px;
+        bottom: -43px;
+        right: -50px;
     }
-}
+    header .Logo{
+        position: relative;
+        bottom: -25px;
+    }
+    .Post_Grid1{
+        position: relative;
+        left: 100px;
+        margin-left: 260px;
+    }
 @media all and (max-width: 1025px) {
     body{
         display: flex;
     }
-    .switch{
-        position: relative;
-        top: -104px;
+    header .nav_links ul{
+       width: 500px;
+       height: 0px;
+       margin-top: 10px;
+       position: relative;
+       right: -40px;
     }
-    .sun{
-        position: relative;
-        top: -101px;
+        
     }
-    .moon{
+    .container{
         position: relative;
-        top: -101px;
-    }
-    .nav_links{
-        position: relative;
+        bottom: -43px;
         right: -50px;
-        height: 150px;
     }
-}
-
-
+    header .Logo{
+        position: relative;
+        bottom: -25px;
+    }
+    .Post_Grid1{
+        position: relative;
+        left: 100px;
+        margin-left: 260px;
+    }
+    @media all and (max-width: 1446px) {
+        body{
+            display: flex;
+        }
+        header .nav_links ul{
+           width: 500px;
+           height: 0px;
+           margin-top: 10px;
+           position: relative;
+           right: -25px;
+        }
+            
+        }
+        .container{
+            position: relative;
+            bottom: -43px;
+            right: -50px;
+        }
+        header .Logo{
+            position: relative;
+            bottom: -25px;
+        }
+        .Post_Grid1{
+            position: relative;
+            left: 100px;
+            margin-left: 260px;
+        }

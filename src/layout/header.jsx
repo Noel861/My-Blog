@@ -24,9 +24,10 @@ function getData(event)
     <div className='header'>
 
     <header>
-    <div>
+    <div><div className="Logo">
                     <img src={Logo} alt="" />
                     <h2>Meta<span>Blog</span></h2>
+                    </div>
                     </div>
                     <div className="nav_links">
                     <ul>
